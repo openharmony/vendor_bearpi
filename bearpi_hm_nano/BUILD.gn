@@ -13,7 +13,8 @@
 
 group("bearpi_hm_nano") {
   deps = [
-    "//device/bearpi/bearpi_hm_nano/app",
-    "//device/bearpi/bearpi_hm_nano/sdk_liteos:wifiiot_sdk",
+    "//device/board/bearpi/bearpi_hm_nano:run_bearpi_hm_nano_scons",
+    "//device/board/bearpi/bearpi_hm_nano/app",
+    "//device/board/bearpi/bearpi_hm_nano/iot_hardware_hals",
   ]
 }

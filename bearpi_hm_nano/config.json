@@ -42,7 +42,7 @@
               "huks_use_lite_storage = true",
               "huks_use_hardware_root_key = true",
               "huks_config_file = \"hks_config_lite.h\"",
-              "huks_mbedtls_path = \"//device/bearpi/bearpi_hm_nano/sdk_liteos/third_party/mbedtls/include/\""
+              "huks_mbedtls_path = \"//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/mbedtls/include/\""
             ]
           }
         ]
@@ -91,6 +91,12 @@
         ]
       },
       {
+        "subsystem": "vendor",
+        "components": [
+          { "component": "hi3861_sdk", "target": "//device/soc/hisilicon/hi3861v100/sdk_liteos:wifiiot_sdk", "features":[] }
+        ]
+      },
+      {
         "subsystem": "xts",
         "components": [
           { "component": "xts_acts", "features":
@@ -102,20 +108,6 @@
         ]
       }
     ],
-    "vendor_adapter_dir": "//device/bearpi/bearpi_hm_nano/hi3861_adapter",
-    "third_party_dir": "//device/bearpi/bearpi_hm_nano/sdk_liteos/third_party",
-    "product_adapter_dir": "//vendor/bearpi/bearpi_hm_nano/hals",
-    "ohos_product_type":"",
-    "ohos_manufacture":"",
-    "ohos_brand":"",
-    "ohos_market_name":"",
-    "ohos_product_series":"",
-    "ohos_product_model":"",
-    "ohos_software_model":"",
-    "ohos_hardware_model":"",
-    "ohos_hardware_profile":"",
-    "ohos_serial":"",
-    "ohos_bootloader_version":"",
-    "ohos_secure_patch_level":"",
-    "ohos_abi_list":""
+    "third_party_dir": "//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party",
+    "product_adapter_dir": "//vendor/bearpi/bearpi_hm_nano/hals"
   }
