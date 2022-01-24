@@ -1,6 +1,6 @@
 {
     "product_name": "bearpi_hm_nano",
-    "type": "small",
+    "type": "mini",
     "version": "3.0",
     "ohos_version": "OpenHarmony 1.1.0",
     "device_company": "bearpi",
