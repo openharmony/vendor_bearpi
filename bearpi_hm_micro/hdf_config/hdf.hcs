@@ -1,0 +1,19 @@
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/i2c/i2c_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/adc/adc_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/gpio/gpio_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/uart/uart_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/mmc/mmc_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/pwm/pwm_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/spi_i2s/spi_i2s_config.hcs"
+#include "../../../../device/soc/st/stm32mp1xx/sdk_liteos/hdf_config/watchdog/watchdog_config.hcs"
+
+
+#include "device_info/device_info.hcs"
+#include "wifi/wlan_platform.hcs"
+#include "wifi/wlan_chip_hi3881.hcs"
+#include "ltdc/ltdc_config.hcs"
+#include "input/input_config.hcs"
+
+root {
+    module = "st,stm32mp1xx";
+}
