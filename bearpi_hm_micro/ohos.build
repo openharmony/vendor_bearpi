@@ -1,0 +1,10 @@
+{
+  "parts": {
+    "product_bearpi_hm_micro": {
+      "module_list": [
+        "//vendor/bearpi/bearpi_hm_micro:bearpi_hm_micro"
+      ]
+    }
+  },
+  "subsystem": "product_bearpi_hm_micro"
+}

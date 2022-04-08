@@ -1,0 +1,14 @@
+root {
+    module = "adc";
+    adc_config {
+        adc_device_tester {
+            match_attr = "ADC_TEST";
+            devNum = 1;
+            channel = 1;
+            maxChannel = 20;
+            dataWidth = 8;
+            rate = 20000;
+        }
+    }
+}
+
