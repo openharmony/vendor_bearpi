@@ -15,6 +15,7 @@ import("//build/lite/config/component/lite_component.gni")
 group("bearpi_hm_micro") {
   deps = [
     ":build_stm32_image",
+    "hals/utils/sys_param:vendor.para",
     "init_configs:init_configs",
     "init_configs:init_configs_mksh",
   ]
