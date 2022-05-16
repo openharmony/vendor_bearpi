@@ -4,6 +4,7 @@
     "version": "3.0",
     "ohos_version": "OpenHarmony 1.1.0",
     "device_company": "bearpi",
+    "device_build_path": "device/board/bearpi/bearpi_hm_nano",
     "board": "bearpi_hm_nano",
     "kernel_type": "liteos_m",
     "kernel_is_prebuilt": true,
@@ -87,12 +88,6 @@
             ]
           },
           { "component": "os_dump", "features":[] }
-        ]
-      },
-      {
-        "subsystem": "vendor",
-        "components": [
-          { "component": "hi3861_sdk", "target": "//device/soc/hisilicon/hi3861v100/sdk_liteos:wifiiot_sdk", "features":[] }
         ]
       },
       {
