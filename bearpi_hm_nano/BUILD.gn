@@ -13,7 +13,6 @@
 
 group("bearpi_hm_nano") {
   deps = [
-    "hals/utils/sys_param:vendor.para",
     "//device/board/bearpi/bearpi_hm_nano:run_bearpi_hm_nano_scons",
     "//device/board/bearpi/bearpi_hm_nano/app",
     "//device/board/bearpi/bearpi_hm_nano/iot_hardware_hals",
