@@ -32,7 +32,7 @@
 #define FEATURE_ROOTVIEW_CUSTOM_BACKGROUND_COLOR 1
 
 /**
- * js system capabillity switch
+ * js system capability switch
  */
 #define FEATURE_ACELITE_SYSTEM_CAPABILITY 1
 
@@ -105,7 +105,7 @@
 #define FEATURE_INTL_MODULE 1
 
 /**
- * supoort number format module
+ * support number format module
  */
 #define FEATURE_NUMBER_FORMAT 1
 
