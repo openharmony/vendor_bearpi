@@ -35,6 +35,8 @@
 #define CID_ERROR    (-1)
 #define CID_OK    1
 
+static const char OHOS_SERIAL[] = {"1234567890"};  // provided by OEM.
+
 static int GetDigitalCidLocation(int i)
 {
     return ((i / HEX_OF_BINARY_BITS + 1) * HEX_OF_BINARY_BITS - (i % HEX_OF_BINARY_BITS) - 1) * TWO_TIMES;
