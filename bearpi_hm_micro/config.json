@@ -69,7 +69,7 @@
         "components": [
           { "component": "bootstrap_lite", "features":[] },
           { "component": "appspawn", "features":[] },
-          { "component": "init_lite", "features":["enable_ohos_startup_init_feature_begetctl_liteos=true"] }
+          { "component": "init", "features":["enable_ohos_startup_init_feature_begetctl_liteos=true"] }
         ]
       },
       {
