@@ -16,7 +16,7 @@
         ]
       },
       {
-        "subsystem": "bearpi_hm_micro_sample",
+        "subsystem": "device_bearpi_hm_micro",
         "components": [
           { "component": "bearpi_hm_micro_sample", "features":[] }
         ]
@@ -81,7 +81,7 @@
       {
         "subsystem": "communication",
         "components": [
-          { "component": "wpa_supplicant", "features":[] }
+          { "component": "dsoftbus", "features":[] }
         ]
       },
       {
@@ -121,13 +121,20 @@
         "subsystem": "xts",
         "components": [
           { "component": "acts", "features":[] },
-          { "component": "tools", "features":[] }
+          { "component": "tools", "features":[] },
+          { "component": "device_attest_lite", "features":[] }
         ]
       },
       {
         "subsystem": "ai",
         "components": [
           { "component": "ai_engine", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "developtools",
+        "components": [
+          { "component": "syscap_codec", "features":[] }
         ]
       },
       {
